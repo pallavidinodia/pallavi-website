@@ -13,7 +13,7 @@ export default function Home() {
           </h1>
           <nav className="hidden md:flex space-x-6 text-sm md:text-base text-gray-600">
             <a href="#about">About</a>
-            <a href="#services">Services</a>
+            <a href="#services">Specializations</a>
             <a href="#insights">Insights</a>
             <a href="#contact">Contact</a>
           </nav>
@@ -59,11 +59,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services */}
+      {/* Specializations */}
       <section id="services" className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-10 text-center">
-            Services
+            Specializations
           </h3>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
             {[
@@ -82,7 +82,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Insights (UPDATED) */}
+      {/* Insights */}
       <section id="insights" className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-10">
@@ -90,24 +90,20 @@ export default function Home() {
           </h3>
 
           {/* Books */}
-          <div className="bg-white p-6 rounded-xl shadow-sm text-left max-w-2xl mx-auto">
-            <p className="text-lg md:text-xl font-medium mb-4">
+          <div className="mb-8">
+            <h4 className="text-xl md:text-2xl font-semibold mb-4">
               Books Published
+            </h4>
+            <p className="text-gray-700 text-lg">
+              <strong>Transfer Pricing Demystified (Domestic & International Transactions)</strong>
             </p>
-
-            <p className="text-base md:text-lg font-medium mb-2">
-              Transfer Pricing Demystified (Domestic & International Transactions)
-            </p>
-
-            <ul className="text-gray-700 text-base md:text-lg space-y-2">
-              <li>• 1st Edition: Published in 2013</li>
-              <li>• 2nd Edition: Published in 2014</li>
-              <li>• 3rd Edition: Published in 2019</li>
-            </ul>
+            <p className="text-gray-600">• 1st Edition: Published in 2013</p>
+            <p className="text-gray-600">• 2nd Edition: Published in 2014</p>
+            <p className="text-gray-600">• 3rd Edition: Published in 2019</p>
           </div>
 
-          {/* Recognition Link */}
-          <div className="mt-8">
+          {/* Recognition */}
+          <div>
             <a
               href="https://www.itrworldtax.com/Lawyer/SR-Dinodia-Co/Pallavi-Dinodia/Profile/1975#undefined"
               target="_blank"
@@ -120,7 +116,7 @@ export default function Home() {
       </section>
 
       {/* Board Positions */}
-      <section className="bg-gray-50 py-16 px-4">
+      <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-10">
             Board Positions
@@ -162,12 +158,10 @@ export default function Home() {
         <h3 className="text-2xl md:text-4xl font-semibold mb-4">
           Contact
         </h3>
-        <p className="text-lg md:text-xl">
-          Email: pallavidinodia@srdinodia.com
-        </p>
+        <p className="text-lg md:text-xl">Email: pallavidinodia@srdinodia.com</p>
       </section>
 
-      {/* Footer */}
+      {/* Disclaimer */}
       <footer className="bg-[#0A2540] text-gray-300 text-sm p-6 text-center">
         <p>
           Disclaimer: This website is for informational purposes only and does not constitute solicitation or professional advice.
