@@ -15,6 +15,7 @@ export default function Home() {
             <a href="#about">About</a>
             <a href="#services">Specializations</a>
             <a href="#insights">Insights</a>
+            <a href="#awards">Awards</a>
             <a href="#contact">Contact</a>
           </nav>
         </div>
@@ -101,16 +102,34 @@ export default function Home() {
             <p className="text-gray-600">• 2nd Edition: Published in 2014</p>
             <p className="text-gray-600">• 3rd Edition: Published in 2019</p>
           </div>
+        </div>
+      </section>
 
-          {/* Recognition */}
-          <div>
-            <a
-              href="https://www.itrworldtax.com/Lawyer/SR-Dinodia-Co/Pallavi-Dinodia/Profile/1975#undefined"
-              target="_blank"
-              className="text-blue-700 underline text-lg md:text-xl"
-            >
-              Women in Tax Leader
-            </a>
+      {/* Global Awards & Recognition */}
+      <section id="awards" className="py-16 px-4">
+        <div className="max-w-5xl mx-auto text-center">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-10">
+            Global Awards & Recognition
+          </h3>
+
+          <div className="text-gray-700 text-lg space-y-4">
+            <p>
+              • Conferred with Honorary Doctorate by Jharkhand Rai University, Ranchi, in 2025.
+            </p>
+            <p>
+              • Voted{" "}
+              <a
+                href="https://www.itrworldtax.com/Lawyer/SR-Dinodia-Co/Pallavi-Dinodia/Profile/1975#undefined"
+                target="_blank"
+                className="text-blue-700 underline"
+              >
+                Women in Tax Leader
+              </a>{" "}
+              by International Tax Review (ITR) for the tenth year running in 2026.
+            </p>
+            <p>
+              • Ranked by ITR as "Highly Regarded" in Indian Tax Jurisdiction for Tax and Transfer Pricing for the year 2025-26.
+            </p>
           </div>
         </div>
       </section>
