@@ -14,8 +14,7 @@ export default function Home() {
           <nav className="hidden md:flex space-x-6 text-sm md:text-base text-gray-600">
             <a href="#about">About</a>
             <a href="#services">Services</a>
-            <a href="#publications">Publications</a>
-            <a href="#thought">Insights</a>
+            <a href="#insights">Insights</a>
             <a href="#contact">Contact</a>
           </nav>
         </div>
@@ -83,15 +82,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Publications / Books */}
-      <section id="publications" className="bg-gray-50 py-16 px-4">
+      {/* Insights (UPDATED) */}
+      <section id="insights" className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto text-center">
-          <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-8">
-            Books Published
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-10">
+            Insights
           </h3>
 
+          {/* Books */}
           <div className="bg-white p-6 rounded-xl shadow-sm text-left max-w-2xl mx-auto">
             <p className="text-lg md:text-xl font-medium mb-4">
+              Books Published
+            </p>
+
+            <p className="text-base md:text-lg font-medium mb-2">
               Transfer Pricing Demystified (Domestic & International Transactions)
             </p>
 
@@ -102,6 +106,7 @@ export default function Home() {
             </ul>
           </div>
 
+          {/* Recognition Link */}
           <div className="mt-8">
             <a
               href="https://www.itrworldtax.com/Lawyer/SR-Dinodia-Co/Pallavi-Dinodia/Profile/1975#undefined"
@@ -110,34 +115,6 @@ export default function Home() {
             >
               Women in Tax Leader
             </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Insights */}
-      <section id="thought" className="py-16 px-4">
-        <div className="max-w-6xl mx-auto">
-          <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-10 text-center">
-            Insights & Thought Leadership
-          </h3>
-
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {[
-              "Transfer Pricing Developments in India",
-              "Navigating Cross-border Taxation",
-              "Family Business Succession Strategies",
-            ].map((article, i) => (
-              <a
-                key={i}
-                href="https://www.itrworldtax.com/Lawyer/SR-Dinodia-Co/Pallavi-Dinodia/Profile/1975#undefined"
-                target="_blank"
-                className="p-5 border rounded-xl bg-white shadow-sm hover:shadow-md text-center block"
-              >
-                <p className="text-base md:text-lg text-blue-800 hover:underline">
-                  {article}
-                </p>
-              </a>
-            ))}
           </div>
         </div>
       </section>
@@ -180,7 +157,7 @@ export default function Home() {
         </a>
       </section>
 
-      {/* Contact (PHONE REMOVED) */}
+      {/* Contact */}
       <section id="contact" className="py-16 px-4 text-center">
         <h3 className="text-2xl md:text-4xl font-semibold mb-4">
           Contact
