@@ -57,3 +57,6 @@ export default function RootLayout({
     </html>
   );
 }
+alternates: {
+  canonical: "https://www.pallavidinodia.com",
+},
