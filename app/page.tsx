@@ -148,7 +148,6 @@ export default function Home() {
               "Allianz Jio Reinsurance Ltd.",
               "National Engineering Industries Ltd.",
               "Voith Paper Fabrics India Ltd.",
-              "Jagsonpal Pharmaceuticals Ltd.",
             ].map((company, i) => (
               <div key={i} className="p-5 border rounded-xl bg-white shadow-sm">
                 <p className="text-base md:text-lg">{company}</p>
