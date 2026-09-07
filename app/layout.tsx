@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     locale: "en_IN",
     type: "website",
   },
+
+  alternates: {
+    canonical: "https://www.pallavidinodia.com",
+  },
 };
 
 export default function RootLayout({
@@ -57,6 +61,3 @@ export default function RootLayout({
     </html>
   );
 }
-alternates: {
-  canonical: "https://www.pallavidinodia.com",
-},
